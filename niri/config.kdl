@@ -182,7 +182,7 @@ layout {
         // Changing the color space is also supported, check the wiki for more info.
         //
         active-color "#ffffff"
-	active-gradient from="#FF0000" to="#7AFF00" angle=45 relative-to="workspace-view"
+	    active-gradient from="#FF0000" to="#7AFF00" angle=45 relative-to="workspace-view"
 
         // You can also color the gradient relative to the entire view
         // of the workspace, rather than relative to just the window itself.
@@ -344,8 +344,8 @@ window-rule {
 
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
-/-window-rule {
-    geometry-corner-radius 12
+window-rule {
+    geometry-corner-radius 10
     clip-to-geometry true
 }
 
@@ -369,6 +369,7 @@ binds {
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Mod+E hotkey-overlay-title="Open File Explorer : thunar" { spawn "thunar"; }
     Mod+B hotkey-overlay-title="Open Web Browser : firefox" { spawn "firefox" ; }
+    Mod+S hotkey-overlay-title="Open Music Player : spotify" { spawn "spotify-launcher" ; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
