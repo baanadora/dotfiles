@@ -1,0 +1,12 @@
+[location]
+auto_locate = false
+latitude = 43.6045
+longitude = 1.4440
+
+
+[lockscreen]
+enabled = true
+blurred_desktop = false
+blur_intensity = 0.15
+tint_intensity = 0.25
+wallpaper = "/home/cooke/Pictures/wallpapers/windows_95.jpg"
